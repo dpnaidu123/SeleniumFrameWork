@@ -40,6 +40,7 @@ public class DriverManagerTL {
             options.addArguments("--remote-allow-origins=*");
             WebDriver driver = new EdgeDriver(options);
             setDriver(driver);
+            driver.manage().window().maximize();
         }
     }
 
