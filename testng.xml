@@ -5,6 +5,10 @@
         <classes>
             <class name="com.thetestingacademy.vwo.LoginTests.LoginTest">
             </class>
+
+            <class name="com.thetestingacademy.vwo.LambdaTest.LoginTestRemote">
+
+            </class>
         </classes>
     </test>
 </suite>
